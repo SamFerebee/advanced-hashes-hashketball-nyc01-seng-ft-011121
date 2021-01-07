@@ -203,5 +203,5 @@ def big_shoe_rebounds
   all_players.each do
     |plyr| all_shoes.push(plyr[:shoe])
   end
-  all_shoes
+  largest_shoe = all_shoes.map(|plyr| )
 end
