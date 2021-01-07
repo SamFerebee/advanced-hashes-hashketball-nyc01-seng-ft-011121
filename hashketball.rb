@@ -204,5 +204,6 @@ def big_shoe_rebounds
     |plyr| all_shoes.push(plyr[:shoe])
   end
   all_shoes.sort!
-  
+  largest_shoe = all_shoes.last 
+  largest_shoe
 end
