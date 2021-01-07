@@ -199,7 +199,7 @@ def big_shoe_rebounds
   home_players = game_hash[:home][:players]
   away_players = game_hash[:away][:players]
   all_players = home_players + away_players
-  all_shoes []
+  all_shoes = []
   all_players.each do
     |plyr| all_shoes.push(plyr[:shoe])
   end
