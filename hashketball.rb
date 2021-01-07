@@ -204,5 +204,5 @@ def big_shoe_rebounds
     |plyr| all_shoes.push(plyr[:shoe])
   end
   all_shoes.sort!
-  all_shoes
+  
 end
