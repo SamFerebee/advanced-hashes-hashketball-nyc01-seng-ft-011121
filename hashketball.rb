@@ -210,5 +210,5 @@ def big_shoe_rebounds
   highest_rebounds = all_players.find do |player| 
     largest_shoe == player[:shoe] 
   end
-  highest_rebounds
+  highest_rebounds[:rebounds]
 end
